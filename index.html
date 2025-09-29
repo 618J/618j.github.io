@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>al-qaedah.tech</title>
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+        }
+        #ascii-container {
+            position: relative;
+            font-size: 12px;
+            white-space: pre;
+            line-height: 1;
+        }
+        .smoke {
+            position: absolute;
+            color: white;
+            font-size: 12px;
+            opacity: 1;
+            transition: all 2s linear;
+        }
+    </style>
+</head>
+<body>
+    <pre id="ascii-container">
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡴⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣷⣶⣶⣆⣀⢙⣳⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣿⣿⣿⣦⣤⣬⣭⣿⣿⣿⣿⣬⣭⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⢀⠜⠈⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⢰⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣽⣷⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⡀
+⢸⣿⣶⡶⠿⢿⣿⣿⣷⣶⣿⣿⡟⠛⠛⠉⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠿⢿⡿⢿⣿⣿⣿⣿⠿⣿⢿⠿⠛⠇⠈⠛⠋⠉⠁⠈⠉⠉⠁⠈⠉⠉⠉⠀
+⢸⣿⡇⠁⠈⠉⣠⣾⡿⠋⠉⠀⠀⠀⠀⠀⠈⢿⣿⣿⣿⡿⡿⠛⢿⣿⣿⣿⣿⡏⠀⠀⠀⠀⠀⠀⣿⣿⡁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠈⣿⡇⢀⣴⡿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣿⡿⠆⠃⠀⠠⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⣿⣿⠟⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⡟⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠿⠿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⡟⠀⠀⠀⠀⠀⠀⢹⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠃⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⠿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⠒⠒⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+    </pre>
+    <script>
+        const container = document.getElementById('ascii-container');
+        const smokeChars = ['~', '*', 'o'];
+        const smokeStartX = 100;
+        const smokeStartY = 4;
+        const containerRect = container.getBoundingClientRect();
+        const charWidth = containerRect.width / 100;
+        const charHeight = containerRect.height / 13;
+
+        function createSmoke() {
+            const smoke = document.createElement('div');
+            smoke.className = 'smoke';
+            smoke.textContent = smokeChars[Math.floor(Math.random() * smokeChars.length)];
+            smoke.style.left = `${smokeStartX * charWidth}px`;
+            smoke.style.top = `${smokeStartY * charHeight}px`;
+            container.appendChild(smoke);
+            setTimeout(() => {
+                smoke.style.top = `${(smokeStartY - 10) * charHeight}px`;
+                smoke.style.opacity = '0';
+                setTimeout(() => smoke.remove(), 2000);
+            }, 10);
+        }
+        setInterval(createSmoke, 300);
+    </script>
+</body>
+</html>
